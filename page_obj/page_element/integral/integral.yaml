@@ -1,0 +1,28 @@
+duifen:
+  desc: 兑分
+  locators:
+    -
+      by: desc
+      value: 兑分
+      name: 首页兑分
+    -
+      by: desc
+      value: 工行极速
+      name: 工行极速
+    -
+      by: desc
+      value: 建设标准
+      name: 建设标准
+    -
+      by: desc
+      value: 招商全清
+      name: 招商全清
+    -
+      by: desc
+      value: 中国银行
+      name: 中国银行
+    -
+      by: text
+      value: 请输入积分数，最低
+      name: 试算收益
+

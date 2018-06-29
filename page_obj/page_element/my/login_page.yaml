@@ -1,0 +1,23 @@
+login:
+ desc: 我
+ locators:
+   -
+     by: desc
+     value: 我
+     name: 我的
+   -
+    by: text
+    value: 请输入账户名/手机号
+    name: 输入账号
+   -
+    by: id
+    value: password--2
+    name: 输入密码
+   -
+    by: desc
+    value: 登 录
+    name: 登录
+
+
+
+
