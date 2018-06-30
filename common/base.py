@@ -27,7 +27,7 @@ class BaseApp():
             elements=WebDriverWait(self.driver,timeout,0.5).until(lambda x:x.find_element_by_id(value))
         else:
             loc=(locator["by"],locator["value"])
-            elements=WebDriverWait(self,timeout,0.5).until(EC.presence_of_element_located(loc))
+            elements=WebDriverWait(self.driver,timeout,0.5).until(lambda x:x.find_element_by_xpath(loc))
         return elements
 
     def click(self,locator):
